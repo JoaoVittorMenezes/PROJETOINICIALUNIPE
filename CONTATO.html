@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fale conosco</title>
+</head>
+<body>
+    <header id="topo" style="background-color: blue; text-align: center; font-size: 30px; padding: 10px;">
+        <h1>HTML <sup>Linguagem de Marcação de Hipertexto</sup></h1>
+        <h3>Tutorial para Iniciantes</h3>
+      </header>
+      <nav>
+        <ul style="list-style: none; background-color: blue; padding: 10px; display: flex; justify-content: space-between; text-align: center;">
+          <li style="flex-grow: 1;"> <a style="color: white; text-decoration: none;" href="recorevy.html#topo">Início</a></li>
+          <li style="flex-grow: 1;"> <a style="color: white; text-decoration: none;" href="recorevy.html#html">HTML</a></li>
+          <li style="flex-grow: 1;"> <a style="color: white; text-decoration: none;" href="recorevy.html#tabela">Tabelas e Listas</a></li>
+          <li style="flex-grow: 1;"> <a style="color: white; text-decoration: none;" href="recorevy.html#sobre">Sobre CSS,HTML e JS</a></li>
+          <li style="flex-grow: 1;"> <a style="color: white; text-decoration: none;" href="recorevy.html#rodape">Links</a></li>
+          <li style="flex-grow: 1;"> <a style="color: white; text-decoration: none;" href="CONTATO.html">Contato</a></li>
+        </ul>
+      </nav>
+    <div style="background-color: rgb(255, 255, 255)"> 
+        <h2 style="color: black; font-size: 20px;">Fale conosco</h2>
+        <h3 style="color: black; font-size: 15px;">Para entrar em contato, preencha o formulário</h3>
+        <form action="OBRIGADO.html" method="get">
+            <div>
+                <section>
+                    <label for="" style="font-weight: 600;display: grid;">Nome:<label>
+                        <input type="text" required/><br>
+                </section>
+                <section>
+                    <label for=""style="font-weight: 600;display: grid;">Email: </label> 
+                        <input type="email" name="email" id="email"required/>
+                </section>
+                <section>
+                    <label for=""style="font-weight: 600; display: grid;">Assunto:</label> 
+                    <select name="Assunto" id="Assunto">
+                        <option value="vazio">---</option>
+                        <option value="Elogios">Elogios</option>
+                        <option value="Dúvidas">Dúvidas</option>
+                        <option value="Comentários">Comentários</option>
+                        <option value="Outro" >Outro</option>
+                    </select required>
+                </section>
+                <section>
+                    <label style="font-weight: 600; display: block;">Mensagem:</label> 
+                    <textarea cols="20" rows="3"></textarea>
+                </section>
+            </div>
+            <section>
+                <label for=""> <input type="checkbox" name="termo "value="Concordo com os termos da página" required> <u><i><b>Concordo com os termos da página</b></i></u></label>
+            </section>
+            <section style="padding-bottom: 30px;">
+            <input type="submit" value="Enviar mensagem"/>
+            </section>
+    </div>
+        </form>
+    </form>
+    <footer id="rodape">
+        <div style="display: flex; column-gap: 0px;">
+          <section style="width: 25%; color: black; background-color: gray;">
+            <h1 style="font-weight: bold ; text-align: center">Sobre</h1>
+            <ul>
+              <li><a style="text-decoration: none; color: black;" href="recorevy.html#topo">Início</a></li>
+              <li>Política de privacidade</li>
+              <li><a style="text-decoration: none; color: black;"href="CONTATO.html">Fale conosco</a></li>
+            </ul>
+          </section>
+          <section style="width: 25%; color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);">
+            <h1 style="font-weight: bold ;text-align: center">Referências</h1>
+            <ul>
+              <li><a style="text-decoration: none; color: black;" href="https://www.w3schools.com/" target="_blank">W3Schools</a></li>
+              <li><a style="text-decoration: none; color: black;" href="https://www.alura.com.br/" target="_blank">Alura</a></li>
+              <li><a style="text-decoration: none; color: black;" href="https://www.youtube.com/index" target="_blank">Youtube</a></li>
+            </ul>
+          </section>
+          <section style="width: 25%; color: rgb(0, 0, 0); background-color: gray;">
+            <h1 style="font-weight: bold ;text-align: center">Tutoriais</h1>
+            <ul>
+              <li><a style="text-decoration: none; color: black;" href="https://www.youtube.com/channel/UCuhnfwz33VjDh9hUS-Nzb4w" target="_blank">Cursos Design</a></li>
+              <li><a style="text-decoration: none; color: black;" href="https://www.cursoemvideo.com/" target="_blank">Curso HTML5 e CSS3</a></li>
+              <li><a style="text-decoration: none; color: black;" href="https://www.cursoemvideo.com/" target="_blank">Curso JavaScript</a></li>
+            </ul>
+          </section>
+          <section style="width: 25%; color: rgb(0, 0, 0); background-color: rgb(254, 254, 254);">
+            <h1 style="font-weight: bold ;text-align: center">Outros links</h1>
+            <ul>
+              <li><a style="text-decoration: none; color: black;" href="https://www.youtube.com/channel/UCuhnfwz33VjDh9hUS-Nzb4w" target="_blank">Cursos Design</a></li>
+              <li><a style="text-decoration: none; color: black;" href="https://www.cursoemvideo.com/" target="_blank">Curso HTML5 e CSS3</a></li>
+              <li><a style="text-decoration: none; color: black;" href="https://www.cursoemvideo.com/" target="_blank">Curso JavaScript</a></li>
+            </ul>
+          </section>
+        </div>
+        <div >
+          <p id="copyright" class="text-center" style="font-weight: bold;
+          font-style: italic; text-align: center; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;"> João Vittor Menezes © Direitos reservados 2023</p>
+        </div>
+    </footer>
+</body>
+</html>
